@@ -1,0 +1,12 @@
+D:\Sistema_Venta_LASER\Capa_Datos\bin\Debug\Capa_Datos.dll
+D:\Sistema_Venta_LASER\Capa_Datos\bin\Debug\Capa_Datos.pdb
+D:\Sistema_Venta_LASER\Capa_Datos\bin\Debug\Capa_Datos.xml
+D:\Sistema_Venta_LASER\Capa_Datos\bin\Debug\Capa_Logica.dll
+D:\Sistema_Venta_LASER\Capa_Datos\bin\Debug\Capa_Logica.pdb
+D:\Sistema_Venta_LASER\Capa_Datos\bin\Debug\Capa_Logica.xml
+D:\Sistema_Venta_LASER\Capa_Datos\obj\Debug\Capa_Datos.vbprojResolveAssemblyReference.cache
+D:\Sistema_Venta_LASER\Capa_Datos\obj\Debug\Capa_Datos.Resources.resources
+D:\Sistema_Venta_LASER\Capa_Datos\obj\Debug\Capa_Datos.vbproj.GenerateResource.Cache
+D:\Sistema_Venta_LASER\Capa_Datos\obj\Debug\Capa_Datos.dll
+D:\Sistema_Venta_LASER\Capa_Datos\obj\Debug\Capa_Datos.xml
+D:\Sistema_Venta_LASER\Capa_Datos\obj\Debug\Capa_Datos.pdb

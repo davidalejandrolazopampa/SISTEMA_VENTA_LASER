@@ -1,0 +1,8 @@
+D:\Sistema_Venta_LASER\Capa_Logica\bin\Debug\Capa_Logica.dll
+D:\Sistema_Venta_LASER\Capa_Logica\bin\Debug\Capa_Logica.pdb
+D:\Sistema_Venta_LASER\Capa_Logica\bin\Debug\Capa_Logica.xml
+D:\Sistema_Venta_LASER\Capa_Logica\obj\Debug\Capa_Logica.Resources.resources
+D:\Sistema_Venta_LASER\Capa_Logica\obj\Debug\Capa_Logica.vbproj.GenerateResource.Cache
+D:\Sistema_Venta_LASER\Capa_Logica\obj\Debug\Capa_Logica.dll
+D:\Sistema_Venta_LASER\Capa_Logica\obj\Debug\Capa_Logica.xml
+D:\Sistema_Venta_LASER\Capa_Logica\obj\Debug\Capa_Logica.pdb

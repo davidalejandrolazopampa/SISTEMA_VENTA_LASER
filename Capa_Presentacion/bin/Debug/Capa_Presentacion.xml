@@ -1,0 +1,592 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Capa_Presentacion
+</name>
+</assembly>
+<members>
+<member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.categoriaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.clienteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.detalle_ventaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.productoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.servicio_tecnicoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.usuarioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.ventaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet._iniciosesionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.generar_comprobanteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.generar_comprobante_servicioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostar_detalle_ventaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_categoriaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_clienteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_productoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_servicioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_usariosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_usuarioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_ventaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.categoriaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.clienteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.detalle_ventaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.productoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.servicio_tecnicoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.usuarioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.ventaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet._iniciosesionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.generar_comprobanteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.generar_comprobante_servicioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostar_detalle_ventaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_categoriaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_clienteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_productoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_servicioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_usariosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_usuarioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_ventaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.categoriaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.clienteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.detalle_ventaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.productoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.servicio_tecnicoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.usuarioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.ventaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet._iniciosesionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.generar_comprobanteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.generar_comprobante_servicioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostar_detalle_ventaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_categoriaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_clienteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_productoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_servicioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_usariosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_usuarioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet.mostrar_ventaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.categoriaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.clienteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.detalle_ventaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.productoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.servicio_tecnicoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.usuarioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.ventaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters._iniciosesionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.generar_comprobanteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.generar_comprobante_servicioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.mostar_detalle_ventaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.mostrar_categoriaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.mostrar_clienteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.mostrar_productoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.mostrar_servicioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.mostrar_usariosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.mostrar_usuarioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.mostrar_ventaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Capa_Presentacion.SistemaVentasLASERDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Capa_Presentacion.SistemaVentasLASERDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Capa_Presentacion.SistemaVentasLASERDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.TableAdapterManager.UpdateAll(Capa_Presentacion.SistemaVentasLASERDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Capa_Presentacion.SistemaVentasLASERDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources._008_doc_edit">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources._027_folder_search">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources._200_add">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources._2000px_Claro_svg">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources._new">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.action_save">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.add_folder">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.Add_To_Basket">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.Add_User">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.articulos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.Banned_User">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.books">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.botonEntrar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.Box_Empty">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.Box_Empty1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.Browser_2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.BTNI">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.chips_claro_movistar_bitel_entel_por_mayor_y_menor_envios_21785_MPE20217490116_122014_O">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.Circle1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.Circle2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.clientes">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.close">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.consejos_para_ahorrar_en_la_factura_de_telefono">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.cPcWXQ0t">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.delete">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.edit">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.file">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.fonn">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.img_share">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.kitsarticulos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.kitsarticulos1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.laser2000logo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.laserLogo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.loginp">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.My_Icons">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.open">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.paper">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.passsssssssss">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.play">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.play2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.playy">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.print">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.reportesdeproductos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.save">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.servicio_tecnicoam">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.serviciotecnico">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.serviciotecnico1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.servis">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.servisdesk">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.st">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.style_file">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.telefono">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.tuenti">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.usermaster">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.usuerrrr">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.ventas">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.video">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.videpsss">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.x">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Capa_Presentacion.My.Resources.Resources.yosemite_snake_login">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Capa_Presentacion.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>

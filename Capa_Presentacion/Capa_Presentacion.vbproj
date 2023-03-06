@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D42F87F-2BD4-479F-81CF-04A48437040B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Capa_Presentacion.My.MyApplication</StartupObject>
+    <RootNamespace>Capa_Presentacion</RootNamespace>
+    <AssemblyName>Capa_Presentacion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Capa_Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Capa_Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmbackupbase.Designer.vb">
+      <DependentUpon>frmbackupbase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmbackupbase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbienvenida.Designer.vb">
+      <DependentUpon>frmbienvenida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmbienvenida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbienvenida2.Designer.vb">
+      <DependentUpon>frmbienvenida2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmbienvenida2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcategoria.Designer.vb">
+      <DependentUpon>frmcategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmcategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcliente.Designer.vb">
+      <DependentUpon>frmcliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmcliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdetalle_venta.Designer.vb">
+      <DependentUpon>frmdetalle_venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmdetalle_venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdetalle_venta_usuario.Designer.vb">
+      <DependentUpon>frmdetalle_venta_usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmdetalle_venta_usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminicio.Designer.vb">
+      <DependentUpon>frminicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frminicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPadre.Designer.vb">
+      <DependentUpon>frmPadre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPadre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmproducto.Designer.vb">
+      <DependentUpon>frmproducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmproducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreportecomprobante.Designer.vb">
+      <DependentUpon>frmreportecomprobante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmreportecomprobante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreporteproductos.Designer.vb">
+      <DependentUpon>frmreporteproductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmreporteproductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreporteserviciotecnico.Designer.vb">
+      <DependentUpon>frmreporteserviciotecnico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmreporteserviciotecnico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmserviciotecnico.Designer.vb">
+      <DependentUpon>frmserviciotecnico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmserviciotecnico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmusuarios.Designer.vb">
+      <DependentUpon>frmusuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmusuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmventa.Designer.vb">
+      <DependentUpon>frmventa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmventa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmventaUsuario.Designer.vb">
+      <DependentUpon>frmventaUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmventaUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmvideos.Designer.vb">
+      <DependentUpon>frmvideos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmvideos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lineas telefonicas.Designer.vb">
+      <DependentUpon>Lineas telefonicas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lineas telefonicas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listaproductos.Designer.vb">
+      <DependentUpon>listaproductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listaproductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SistemaVentasLASERDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaVentasLASERDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmbackupbase.resx">
+      <DependentUpon>frmbackupbase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbienvenida.resx">
+      <DependentUpon>frmbienvenida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbienvenida2.resx">
+      <DependentUpon>frmbienvenida2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcategoria.resx">
+      <DependentUpon>frmcategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcliente.resx">
+      <DependentUpon>frmcliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdetalle_venta.resx">
+      <DependentUpon>frmdetalle_venta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdetalle_venta_usuario.resx">
+      <DependentUpon>frmdetalle_venta_usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminicio.resx">
+      <DependentUpon>frminicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPadre.resx">
+      <DependentUpon>frmPadre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmproducto.resx">
+      <DependentUpon>frmproducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreportecomprobante.resx">
+      <DependentUpon>frmreportecomprobante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreporteproductos.resx">
+      <DependentUpon>frmreporteproductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreporteserviciotecnico.resx">
+      <DependentUpon>frmreporteserviciotecnico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmserviciotecnico.resx">
+      <DependentUpon>frmserviciotecnico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmusuarios.resx">
+      <DependentUpon>frmusuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmventa.resx">
+      <DependentUpon>frmventa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmventaUsuario.resx">
+      <DependentUpon>frmventaUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmvideos.resx">
+      <DependentUpon>frmvideos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lineas telefonicas.resx">
+      <DependentUpon>Lineas telefonicas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listaproductos.resx">
+      <DependentUpon>listaproductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportedeservicioTecnico.rdlc" />
+    <EmbeddedResource Include="Reporte_venta.rdlc" />
+    <EmbeddedResource Include="rptproductoslaser.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemaVentasLASERDataSet.xsc">
+      <DependentUpon>SistemaVentasLASERDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaVentasLASERDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaVentasLASERDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaVentasLASERDataSet.xss">
+      <DependentUpon>SistemaVentasLASERDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa_Datos\Capa_Datos.vbproj">
+      <Project>{813C4701-A207-45EC-A568-CFBDEC59DE6D}</Project>
+      <Name>Capa_Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa_Logica\Capa_Logica.vbproj">
+      <Project>{39F4A550-470C-429C-8EF3-6B102EF1BF3D}</Project>
+      <Name>Capa_Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laser2000logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTNI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botonEntrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yosemite-snake-login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usermaster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laserLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telefono.jpg" />
+    <None Include="Resources\reportesdeproductos.png" />
+    <None Include="Resources\videpsss.jpg" />
+    <None Include="Resources\servisdesk.jpg" />
+    <None Include="Resources\st.JPG" />
+    <None Include="Resources\serviciotecnico1.jpg" />
+    <None Include="Resources\servicio_tecnicoam.jpg" />
+    <None Include="Resources\ventas.png" />
+    <None Include="Resources\kitsarticulos1.png" />
+    <None Include="Resources\usuerrrr.png" />
+    <None Include="Resources\passsssssssss.png" />
+    <None Include="Resources\kitsarticulos.png" />
+    <None Include="Resources\fonn.jpg" />
+    <None Include="Resources\servis.JPG" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\open.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\x.png" />
+    <None Include="Resources\style_file.png" />
+    <None Include="Resources\new.png" />
+    <None Include="Resources\Box Empty1.png" />
+    <None Include="Resources\My Icons.png" />
+    <None Include="Resources\Banned User.png" />
+    <None Include="Resources\Browser 2.png" />
+    <None Include="Resources\serviciotecnico.jpg" />
+    <None Include="Resources\tuenti.jpg" />
+    <None Include="Resources\2000px-Claro.svg.png" />
+    <None Include="Resources\img_share.jpg" />
+    <None Include="Resources\chips-claro-movistar-bitel-entel-por-mayor-y-menor-envios-21785-MPE20217490116_122014-O.jpg" />
+    <None Include="Resources\cPcWXQ0t.png" />
+    <None Include="Resources\consejos-para-ahorrar-en-la-factura-de-telefono.gif" />
+    <None Include="Resources\play.jpg" />
+    <None Include="Resources\video.png" />
+    <None Include="Resources\paper.png" />
+    <None Include="Resources\Add User.png" />
+    <None Include="Resources\Box Empty.png" />
+    <None Include="Resources\Add To Basket.png" />
+    <None Include="Resources\books.png" />
+    <None Include="Resources\articulos.png" />
+    <None Include="Resources\action_save.gif" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\add_folder.png" />
+    <None Include="Resources\027-folder_search.ico" />
+    <None Include="Resources\008-doc_edit.ico" />
+    <None Include="Resources\200-add.ico" />
+    <None Include="Resources\clientes.png" />
+    <Content Include="Resources\file.png" />
+    <None Include="Resources\file1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
